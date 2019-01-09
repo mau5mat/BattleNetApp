@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FFD00562188B28200BBBEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD00552188B28200BBBEC7 /* AppDelegate.swift */; };
+		9FFD00582188B28200BBBEC7 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD00572188B28200BBBEC7 /* FriendViewController.swift */; };
+		9FFD005B2188B28200BBBEC7 /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD00592188B28200BBBEC7 /* Friend.storyboard */; };
+		9FFD005D2188B28400BBBEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD005C2188B28400BBBEC7 /* Assets.xcassets */; };
+		9FFD00602188B28400BBBEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD005E2188B28400BBBEC7 /* LaunchScreen.storyboard */; };
+		9FFD00692188B30600BBBEC7 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD00682188B30600BBBEC7 /* Friend.swift */; };
+		9FFD006D2188B4AB00BBBEC7 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD006B2188B4AB00BBBEC7 /* FriendTableViewCell.swift */; };
+		9FFD006E2188B4AB00BBBEC7 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD006C2188B4AB00BBBEC7 /* FriendTableViewCell.xib */; };
+		9FFF1BAE218C6B7B007E11E1 /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF1BAC218C6B7B007E11E1 /* FriendCollectionViewCell.swift */; };
+		9FFF1BAF218C6B7B007E11E1 /* FriendCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFF1BAD218C6B7B007E11E1 /* FriendCollectionViewCell.xib */; };
+		9FFF1BC321930765007E11E1 /* UITableViewController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF1BC221930765007E11E1 /* UITableViewController+Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FFD00522188B28200BBBEC7 /* BattleNetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleNetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD00552188B28200BBBEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FFD00572188B28200BBBEC7 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		9FFD005A2188B28200BBBEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Friend.storyboard; sourceTree = "<group>"; };
+		9FFD005C2188B28400BBBEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FFD005F2188B28400BBBEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FFD00612188B28400BBBEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFD00682188B30600BBBEC7 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		9FFD006B2188B4AB00BBBEC7 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		9FFD006C2188B4AB00BBBEC7 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		9FFF1BAC218C6B7B007E11E1 /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FFF1BAD218C6B7B007E11E1 /* FriendCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendCollectionViewCell.xib; sourceTree = "<group>"; };
+		9FFF1BC221930765007E11E1 /* UITableViewController+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewController+Utilities.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFD004F2188B28200BBBEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FFD00492188B28200BBBEC7 = {
+			isa = PBXGroup;
+			children = (
+				9FFD00542188B28200BBBEC7 /* BattleNetApp */,
+				9FFD00532188B28200BBBEC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFD00532188B28200BBBEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD00522188B28200BBBEC7 /* BattleNetApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFD00542188B28200BBBEC7 /* BattleNetApp */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD00552188B28200BBBEC7 /* AppDelegate.swift */,
+				9FFD00672188B2B000BBBEC7 /* Models */,
+				9FFD006A2188B47C00BBBEC7 /* Rows */,
+				9FFF1BAB218C6B22007E11E1 /* CollectionViewCell */,
+				9FFF1BBF21930643007E11E1 /* ViewControllers */,
+				9FFF1BC021930657007E11E1 /* Storyboards */,
+				9FFF1BC121930723007E11E1 /* Extensions */,
+				9FFD00612188B28400BBBEC7 /* Info.plist */,
+				9FFD005C2188B28400BBBEC7 /* Assets.xcassets */,
+			);
+			path = BattleNetApp;
+			sourceTree = "<group>";
+		};
+		9FFD00672188B2B000BBBEC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD00682188B30600BBBEC7 /* Friend.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FFD006A2188B47C00BBBEC7 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD006B2188B4AB00BBBEC7 /* FriendTableViewCell.swift */,
+				9FFD006C2188B4AB00BBBEC7 /* FriendTableViewCell.xib */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		9FFF1BAB218C6B22007E11E1 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FFF1BAC218C6B7B007E11E1 /* FriendCollectionViewCell.swift */,
+				9FFF1BAD218C6B7B007E11E1 /* FriendCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		9FFF1BBF21930643007E11E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD00572188B28200BBBEC7 /* FriendViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FFF1BC021930657007E11E1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD00592188B28200BBBEC7 /* Friend.storyboard */,
+				9FFD005E2188B28400BBBEC7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9FFF1BC121930723007E11E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FFF1BC221930765007E11E1 /* UITableViewController+Utilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFD00512188B28200BBBEC7 /* BattleNetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFD00642188B28400BBBEC7 /* Build configuration list for PBXNativeTarget "BattleNetApp" */;
+			buildPhases = (
+				9FFD004E2188B28200BBBEC7 /* Sources */,
+				9FFD004F2188B28200BBBEC7 /* Frameworks */,
+				9FFD00502188B28200BBBEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleNetApp;
+			productName = BattleNetApp;
+			productReference = 9FFD00522188B28200BBBEC7 /* BattleNetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFD004A2188B28200BBBEC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Matt Roberts";
+				TargetAttributes = {
+					9FFD00512188B28200BBBEC7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9FFD004D2188B28200BBBEC7 /* Build configuration list for PBXProject "BattleNetApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFD00492188B28200BBBEC7;
+			productRefGroup = 9FFD00532188B28200BBBEC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFD00512188B28200BBBEC7 /* BattleNetApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFD00502188B28200BBBEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFF1BAF218C6B7B007E11E1 /* FriendCollectionViewCell.xib in Resources */,
+				9FFD00602188B28400BBBEC7 /* LaunchScreen.storyboard in Resources */,
+				9FFD005D2188B28400BBBEC7 /* Assets.xcassets in Resources */,
+				9FFD005B2188B28200BBBEC7 /* Friend.storyboard in Resources */,
+				9FFD006E2188B4AB00BBBEC7 /* FriendTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFD004E2188B28200BBBEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFF1BAE218C6B7B007E11E1 /* FriendCollectionViewCell.swift in Sources */,
+				9FFD00692188B30600BBBEC7 /* Friend.swift in Sources */,
+				9FFF1BC321930765007E11E1 /* UITableViewController+Utilities.swift in Sources */,
+				9FFD00582188B28200BBBEC7 /* FriendViewController.swift in Sources */,
+				9FFD00562188B28200BBBEC7 /* AppDelegate.swift in Sources */,
+				9FFD006D2188B4AB00BBBEC7 /* FriendTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FFD00592188B28200BBBEC7 /* Friend.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFD005A2188B28200BBBEC7 /* Base */,
+			);
+			name = Friend.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFD005E2188B28400BBBEC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFD005F2188B28400BBBEC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFD00622188B28400BBBEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FFD00632188B28400BBBEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFD00652188B28400BBBEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BattleNetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mau5mat.BattleNetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFD00662188B28400BBBEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BattleNetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mau5mat.BattleNetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFD004D2188B28200BBBEC7 /* Build configuration list for PBXProject "BattleNetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD00622188B28400BBBEC7 /* Debug */,
+				9FFD00632188B28400BBBEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFD00642188B28400BBBEC7 /* Build configuration list for PBXNativeTarget "BattleNetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD00652188B28400BBBEC7 /* Debug */,
+				9FFD00662188B28400BBBEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFD004A2188B28200BBBEC7 /* Project object */;
+}
